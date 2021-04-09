@@ -6,8 +6,8 @@ import './App.css';
 import { selectTaskList } from './state/taskList/taskListSlice';
 
 function App() {
-  const taskListObj = useSelector(selectTaskList);
-  console.log(taskListObj);
+  const taskListArr = useSelector(selectTaskList);
+  console.log(taskListArr);
 
   return (
     <div className="App">
